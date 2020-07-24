@@ -1,4 +1,3 @@
-/*declaracion de variables*/
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +5,8 @@
 }
 
 body {
-  background-color: brown;
-}
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+ }
 
 nav {
   width: 100%;
@@ -47,6 +46,7 @@ nav ul li a {
 
 #img-caption {
   text-align: center;
+  font-size: 25px;
 }
 
 figcaption {
@@ -64,13 +64,16 @@ h1#title{
 }
 
 #tributo-info {
-  max-width: 650px;
-  position: relative;
-  margin: 50px auto;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px auto;
 }
 
 #tributo-info ul li {
   margin: 16px 0px;
+  font-size: 20px;
 }
 
 #img-div figure h2 {
@@ -81,4 +84,9 @@ h1#title{
   margin: 80px 0px;
   text-align: center;
   border: 1px solid black;
+}
+
+#tributo-info h4{
+  margin: 30px auto;
+  text-align: center;
 }
