@@ -59,7 +59,7 @@ figcaption {
   margin-bottom: 20px;
 }
 
-h1#title{
+h1{
   font-family: 'Krona One', sans-serif;
   text-transform: uppercase;
 }
@@ -91,7 +91,15 @@ h1#title{
   margin: 30px auto;
   text-align: center;
 }
+
 #tributo-info h3 a{
  text-decoration: none;
  color: blue;
+}
+
+.checkbox{
+  padding: .2rem;
+}
+.btn-primary{
+  color: #008000;
 }
